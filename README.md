@@ -6,6 +6,14 @@ Loyiha muallifning **Litvaning nufuzli kompaniyasida masofaviy (online/remote) d
 
 ---
 
+## 🌐 Jonli Demo (Live Demo)
+
+Loyiha Vercel platformasiga muvaffaqiyatli yuklangan va jonli ishlamoqda. Loyihani quyidagi havola orqali ko'rishingiz mumkin:
+
+🔗 **[https://rekvizitai-vz-lt.vercel.app](https://rekvizitai-vz-lt.vercel.app/)**
+
+---
+
 ## ✨ Loyihaning Asosiy Imkoniyatlari (Features)
 
 *   **🔍 Murakkab Qidiruv Tizimi**: Kompaniyalarni nomi, kodi, kalit so'zlari, shahar va faoliyat sohasi bo'yicha tezkor va batafsil qidirish (Detailed Search).

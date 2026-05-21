@@ -14,11 +14,27 @@ import { Button } from "@/components/ui/button";
 export function SelectScrollable({
   placeholder,
   categories = [],
+  selectedCategories,
+  onChange,
 }: {
   placeholder: string;
   categories: Category[];
+  selectedCategories?: string[];
+  onChange?: (value: string[]) => void;
 }) {
-  const [scopeSelect, setScopeSelect] = useState("");
+  const [localScope, setLocalScope] = useState("");
+
+  const scopeSelect = selectedCategories !== undefined
+    ? (selectedCategories[0] || "")
+    : localScope;
+
+  const setScopeSelect = (val: string) => {
+    if (selectedCategories !== undefined && onChange) {
+      onChange(val ? [val] : []);
+    } else {
+      setLocalScope(val);
+    }
+  };
 
   const sortedCategories = (categories ?? []).sort((a, b) =>
     a.categories.localeCompare(b.categories),

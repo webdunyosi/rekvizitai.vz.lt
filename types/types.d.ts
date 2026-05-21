@@ -1,9 +1,9 @@
 type searchData = {
-  name: string | undefined;
-  word: string | undefined;
-  code: string | undefined;
-  city: string | undefined;
-  sic_code: string[] | undefined;
+  name?: string;
+  word?: string;
+  code?: string;
+  city?: string;
+  sic_code?: string[];
 };
 
 type currencyData = {

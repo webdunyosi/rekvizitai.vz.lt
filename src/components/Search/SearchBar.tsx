@@ -84,7 +84,7 @@ export function SearchBar({
           <ul>
             {searchResults.results.map((result, index) => (
               <li key={index} className="border-b py-2">
-                {result.name} - {result.city}
+                {result.company_name} - {result.registered_office_locality}
               </li>
             ))}
           </ul>

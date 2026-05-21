@@ -26,7 +26,9 @@ export const Navbar = () => {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           {/* Menu */}
-          <MobileMenu />
+          <div className="sm:hidden">
+            <MobileMenu />
+          </div>
         </div>
       </MaxWidthWrapper>
     </div>

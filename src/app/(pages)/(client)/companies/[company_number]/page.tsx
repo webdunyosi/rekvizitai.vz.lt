@@ -10,18 +10,25 @@ type Props = {
 export const revalidate = 86400; // data revalidates once in a day
 
 export async function generateStaticParams() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const response = await fetch(`${apiUrl}/companies/ids?page=1&size=10`);
-  const data = await response.json();
-
-  if (!response.ok) {
-    console.error("Failed to fetch company IDs");
+  try {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    if (!apiUrl) return [];
+    const response = await fetch(`${apiUrl}/companies/ids?page=1&size=10`);
+    if (!response.ok) {
+      console.error("Failed to fetch company IDs: response not ok");
+      return [];
+    }
+    const data = await response.json();
+    if (!data || !data.results) {
+      return [];
+    }
+    return data.results.map((companyNumber: string) => ({
+      company_number: companyNumber,
+    }));
+  } catch (error) {
+    console.error("Failed to fetch company IDs in generateStaticParams:", error);
     return [];
   }
-
-  return data.results.map((companyNumber: string) => ({
-    company_number: companyNumber,
-  }));
 }
 
 export async function generateMetadata(

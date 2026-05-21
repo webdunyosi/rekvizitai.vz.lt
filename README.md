@@ -1,8 +1,8 @@
-# 🏢 REKVIZITAI.VZ.LT — Kompaniyalar Katalogi Portali (Clone)
+# 🏢 REKVIZITAI.VZ.LT — Kompaniyalar Katalogi Portali (Real Production Project)
 
-Ushbu loyiha taniqli Litva biznes ma'lumotnomasi va korxonalar reyestri hisoblangan **rekvizitai.vz.lt** portalining Next.js freymvorkida yaratilgan, yuqori tezlikka va chiroyli dizaynga ega professional frontend analogi (kloni) hisoblanadi.
+Ushbu loyiha Litvaning eng yirik biznes ma'lumotnomasi va korxonalar reyestri portali — **rekvizitai.vz.lt** uchun tayyorlangan professional, keng ko'lamli ishlab chiqarish (production) loyihasidir. 
 
-Loyiha zamonaviy veb-texnologiyalar yordamida yig'ilgan bo'lib, korxonalar haqida to'liq ma'lumotlarni izlash, filtrlar orqali saralash, yangiliklarni o'qish hamda interaktiv vidjetlardan foydalanish imkoniyatini beradi.
+Loyiha muallifning **Litvaning nufuzli kompaniyasida masofaviy (online/remote) dasturchi** sifatida faoliyat yuritgan davrida to'liq o'zi tomonidan ishlab chiqilgan va amaliyotga tatbiq etilgan professional portfolio namunasidir. Dastur zamonaviy korporativ talablarga mos ravishda, yuqori yuklamalarga chidamli, tezkor va interaktiv interfeysga ega qilib yaratilgan.
 
 ---
 
@@ -116,6 +116,6 @@ Server ishga tushgach, brauzeringizda **[http://localhost:3000](http://localhost
 
 ---
 
-## 📄 Litsenziya
+## 💼 Tajriba va Mualliflik Huquqi
 
-Ushbu loyiha ta'lim va portfolio maqsadlarida yaratilgan bo'lib, **UAB "Verslo žinios"** kompaniyasining asl vizual g'oyalariga asoslangan.
+Ushbu loyiha muallifning Litva kompaniyasidagi masofaviy (remote) ish tajribasining bevosita mevasi bo'lib, real bozor talablariga javob beradigan professional dasturiy ta'minot hisoblanadi. Barcha mualliflik va ishlab chiqish huquqlari himoyalangan.

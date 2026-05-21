@@ -26,7 +26,7 @@ export const Navbar = () => {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           {/* Menu */}
-          <MobileMenu className="bg-[#010066] text-white" />
+          <MobileMenu />
         </div>
       </MaxWidthWrapper>
     </div>
